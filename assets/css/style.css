@@ -1,0 +1,172 @@
+/* .beer-header{
+    text-align: center; 
+     background-color: blue;
+    color: blue;
+} */ 
+
+.background1 {
+    background-color: aqua !important;
+}
+
+
+/* #beer-display {background-image: url("beermugimage.jpg");} */
+.jumbotron {
+    background-color: aqua; 
+    font-family: 'Spicy Rice', cursive;
+    padding: 0%;
+    height: 207px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 9px 13px 26px #000000bd;
+    border: 2px solid #fff;
+}
+.absLeft{
+    left: 0;
+    position: absolute;
+} 
+.absRight{
+    right: 0;
+    position: absolute;
+} 
+
+.posRel{
+    position: relative;
+}
+
+#untappedImg {
+    height: 100px
+}
+#imgContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#title {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+
+font-size: 90px;
+font: bold;
+color: chocolate;}
+
+.beer {height: 100%;}
+.left {float: left;}
+.right {float: right;}
+.middle {width: 33%;}
+img{vertical-align:top}
+
+*{
+    box-sizing: border-box;
+}
+ 
+body {background-image: url("../images/ben-ostrower-564571-unsplash.jpg");}
+
+.box {
+  float: left;
+  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+}
+
+.card-body {
+    background-image: url("../images/stephen-frank-492607-unsplash.jpg");
+    color: wheat;
+}
+.card-title {
+    color: wheat;
+    font: bold;
+}
+.card-text {
+    color: wheat;
+    font: bold;
+}
+.card-header {
+    font-weight:bold;
+    font-size: 20px;
+    color: chocolate;
+    background-color: aqua;
+}
+
+.Title2 {
+    font-weight:bold;
+    font-size: 20px;
+    color: chocolate;
+}
+
+#chart_div{
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .beerform{
+    position: static;}
+    .beerImg{
+        width: 25%;
+        height: auto;}
+        .beer-chart{
+            width: 25%;
+            height: auto;
+        }
+    h1{
+        font-size: 10px;
+    }
+    #title{
+         /* display:flex;
+         justify-content: center;
+         align-items: center; */
+         width:170px;
+         margin: 0 auto;
+    }
+    #chart_div{
+        width: 100vw;
+        position: relative;
+        left: 40%;
+        right: 40%;
+        margin-left: -40vw;
+        margin-right: -40vw;
+        margin-top: 0;
+    }
+    .jumbotron{
+        height:100px;
+    }
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .beerform{
+        position: static;}
+        /* .beerImg{ */
+            /* width: 25%; */
+            /* height: auto;} */
+            
+        h1{
+            font-size: 35px;
+        }
+        /* #chart_div{
+                width: 325px;} */
+        .push{
+            width:100px;
+        }
+        #background1{
+            width:340px !important;
+            background-color: aqua;
+        }
+        }
+        
+
+
+@media only screen and (max-width: 1170px) {
+h1 {overflow: hidden; margin:auto;
+}
+
+}
+
+
